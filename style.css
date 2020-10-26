@@ -1,0 +1,101 @@
+/*
+colors:
+white: #fff;
+off-white: #f4f4f4;
+
+off-black: #363636;
+black: #050505;
+
+fonts:
+'Questrial', sans-serif; --primary
+'Roboto', sans-serif;    --secondary
+*/
+
+/* General aesthetics */
+body{
+  background-color: #f4f4f4;
+}
+
+main{
+  font-family: 'Questrial', sans-serif;
+}
+
+.credit{
+  margin: 5px;
+}
+
+/* title */
+#title{
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+#date{
+  text-align: center;
+}
+
+/* intro/description */
+
+.intro{
+  height: 55vh;
+  background-image: url("Images/Chadwick-Boseman-42.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+}
+
+.intro #desc{
+  background-color: #202020;
+  color: #f4f4f4;
+  width: 500px;
+  height: 55vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.intro .info{
+  font-family: 'Roboto', sans-serif;
+  padding: 1em 1em 0 1em;
+  line-height: 2em;
+  margin-top: 0;
+}
+
+
+/* Image div */
+#img-div{
+  padding: 1.5em;
+  background-color: #fff;
+}
+
+#img-div #image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70vh;
+  filter: grayscale(70%);
+}
+
+/* Tribute info div */
+#tribute-info{
+  text-align: center;
+}
+#tribute-info ul{
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 2em;
+}
+
+.tribute-link{
+  text-align: center;
+}
+/* Responsive */
+@media screen and (min-width:1300px) {
+  /* .intro #desc{
+    background-color: #202020;
+    color: #f4f4f4;
+    width: 750px;
+    height: 55vh;
+  } */
+
+}
